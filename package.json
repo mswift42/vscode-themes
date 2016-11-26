@@ -1,0 +1,22 @@
+{
+    "name": "emacs-themes",
+    "displayName": "emacs-themes",
+    "description": "port of my favourite Emacs themes.",
+    "version": "0.0.1",
+    "publisher": "me",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "breezy-fall",
+                "uiTheme": "vs",
+                "path": "./themes/breezy-fall.tmTheme"
+            }
+        ]
+    }
+}
